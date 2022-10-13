@@ -1,0 +1,361 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #80808029;
+    font-family: 'Raleway';
+}
+.limite-largura{
+    max-width: 1024px;
+}
+header{
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%; 
+}
+.cabecalho p{
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+}
+header img{
+    width: 32px;
+    height: 32px;
+}
+.img-fundo-form{
+    width: 100%;
+    height: auto;
+    background-image: url(img/bahia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.largura-form{
+    padding: 50px 0px;
+    width: 100%;
+    height: auto;
+    margin:auto;
+}
+.titulo-form-area{
+    width: 100%;
+    height: 35px;
+    background-color: #5d15d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo-form-area img{
+    width: 20px;
+    height: 20px;
+}
+.titulo-form-area h1{
+    font-size: 14px;
+    color: #fff;
+    margin-left: 5px;
+}
+.form{
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 25px 20px 25px;    
+}
+
+.oferta-area{
+    width: 100%;
+    height: auto;
+    margin: 32px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+.oferta-area h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.oferta-area h4{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.ofertas-imagens{
+    width: 100%;
+    height: 375px;
+    display: flex;
+   justify-content: space-between;
+}
+.destaque{
+    position: relative;
+    width: calc(50% - 10px);
+    height: 100%;
+}
+.oferta-quadro-imagens{
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;  
+    justify-content: space-between;
+    gap: 2px;
+}
+.quadro{
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 0 6px;
+}
+.oferta-area img{
+    width: 100%;
+    height: 100%;  
+    object-fit: cover;
+}
+.oferta-area figcaption{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.373);
+    font-size: 17px;
+    color: #fff;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+.anuncios{
+    width: 100%;
+    height: auto;
+    margin: 32px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+.anuncios h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.anuncios h3{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.agrupa-oferta{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+}
+.oferta-cont{
+    width: calc(50% - 10px);
+    height: 100%;
+}
+.oferta-cont img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.oferta-descri{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-size: 16px;
+}
+.oferta-descri p{
+    color: #808080;
+    margin-top: 15px;
+
+}
+footer .rodape{
+    width: 100%;
+    margin-top: 32px;
+    margin: auto;
+    background-color: #5d15d1;
+    color: #fff;
+}
+.flex{
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  
+}
+footer h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.agrupar{
+    margin: 5px 0;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+   gap: 5px;
+}
+.agrupar img{
+    height: 18px;
+}
+.agrupa-oferta span{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.dados-pessoais{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+}
+.dados-pessoais input{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #5d15d1;
+    border-radius: 4px;
+}
+.datas{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 10px;
+    padding: 5px;
+    
+}
+.ida{
+    display: flex;
+    flex-direction: column;
+}
+.volta{
+    display: flex;
+    flex-direction: column;
+}
+.ida input, .volta input{
+    padding: 10px;
+    border: 1px solid #5d15d1;
+    border-radius: 4px;
+    width: 473px;
+}
+.destinos{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.origem{
+    display: flex;
+    flex-direction: column;
+}
+.destino{
+    display: flex;
+    flex-direction: column;
+}
+.origem select, .destino select{
+    padding: 10px;
+    border: 1px solid #5d15d1;
+    border-radius: 4px;
+    width: 473px;
+}
+.quarto, .preferencias{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+}
+.infantil, .pref{
+    display: flex;
+    align-items: center;
+}
+.infantil input, .pref input{
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #5d15d1;
+}
+button{
+    outline: 2px solid #8980f1;
+    outline-offset: 2px;
+    border-radius: 4px;
+    background-color: #5d15d1;
+    padding: 8px;
+}
+button:hover{
+    background-color: #808080;
+}
+@media (max-width: 1100px) {
+    header, main, footer{
+        width: 90%;
+    }
+    .ida input, .volta input{
+        width: 310px;
+    }
+    .origem select, .destino select{
+        width: 310px;
+    }
+    
+    
+}
+@media (max-width:768px) {
+    button{
+        width: 100%;
+    }
+    .ida input, .volta input{
+        width: auto;
+    }
+    .origem select, .destino select{
+        width: auto;
+    }
+    
+    .ofertas-imagens{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .oferta-quadro-imagens{
+        width: 100%;
+    }
+    .ofertas-imagens figure{
+        height: 225px;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .agrupa-oferta{
+        flex-direction: column;
+    }
+    .oferta-cont {
+        width: 100%;
+        height: 100%;
+        margin-top: 15px;
+    }
+    .flex{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contatos .redes{
+        width: 240px;
+    }
+}
+@media (max-width:540px) {
+    .preferencias{
+        flex-direction: column;
+    }
+    .datas, .destinos, .quarto, .pref{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 15px;
+        border: 5px;
+        font-size: 19px;
+    }
+    .ida input, .volta input{
+        width: 310px;
+        padding: 5px;
+    }
+    .origem select, .destino select{
+        width: 310px;
+        padding: 5px;
+        border: 5px 0;
+    }
+    
+}
