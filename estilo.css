@@ -6,6 +6,7 @@
 body{
     background-color: #80808029;
     font-family: 'Raleway';
+    margin: auto;
 }
 .limite-largura{
     max-width: 1024px;
