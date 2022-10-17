@@ -349,11 +349,11 @@ button:hover{
         font-size: 19px;
     }
     .ida input, .volta input{
-        width: 310px;
+        width: 280px;
         padding: 5px;
     }
     .origem select, .destino select{
-        width: 310px;
+        width: 280px;
         padding: 5px;
         border: 5px 0;
     }
